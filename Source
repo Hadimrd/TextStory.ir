@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت موزیک من</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        audio {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>به سایت موزیک خوش آمدید!</h1>
+    <p>اینجا می‌توانید موزیک‌های مورد علاقه‌تان را گوش دهید.</p>
+    <audio controls>
+        <source src="yourmusic.mp3" type="audio/mp3">
+        مرورگر شما از پخش فایل‌های صوتی پشتیبانی نمی‌کند.
+    </audio>
+</body>
+</html>
